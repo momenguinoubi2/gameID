@@ -13,4 +13,16 @@ public class Articles {
         this.img=img;
 
     }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public int getImg() {
+        return img;
+    }
 }

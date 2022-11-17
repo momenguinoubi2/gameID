@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                     replaceFragment(new ProfileFragment());
                     break;
                 case R.id.friends:
-                    replaceFragment(new friendsFragment());
+                    replaceFragment(new FriendsFragment());
                     break;
                 case R.id.search:
                     replaceFragment(new SearchFragment());
